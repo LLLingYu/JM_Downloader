@@ -1,0 +1,39 @@
+{
+  "version": "2.1",
+  "log": true,
+  "dir_rule": {
+    "rule": "Bd_Atitle_Pindex",
+    "base_dir": "D:\\somefiles\\Bot\\JMBot\\JmBot\\JmDownload"
+  },
+  "download": {
+    "cache": true,
+    "image": {
+      "decode": true,
+      "suffix": ".jpg"
+    },
+    "threading": {
+      "image": 30,
+      "photo": 24
+    }
+  },
+  "client": {
+    "cache": null,
+    "domain": [],
+    "postman": {
+      "type": "cffi",
+      "meta_data": {
+        "impersonate": "chrome110",
+        "headers": null,
+        "proxies": {
+          "https": "127.0.0.1:7890",
+          "http": "127.0.0.1:7890"
+        }
+      }
+    },
+    "impl": "api",
+    "retry_times": 5
+  },
+  "plugins": {
+    "valid": "log"
+  }
+}
