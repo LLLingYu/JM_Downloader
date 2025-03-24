@@ -1,0 +1,2 @@
+# JM_Downloader
+一个帮你从JMComic搜索、下载本子并转换成PDF发送到群里的Bot
